@@ -6,3 +6,5 @@ Scala是一种多范式的编程语言，其设计的初衷是要集成面向对
 Scala有Scala Shell，可以直接在上面写scala，而Java没有。
 
 采用记事本的形式编写Scala程序，需要在该scala文件目录下将该scala文件编译为.class文件，例如，“使用命令编译scalac HelloScala.scala，然后使用命令运行scala HelloScala”，这与Java编写并运行Java文件类型类似。
+
+Scala和Java一样，有7种数值类型Byte、Char、Short、Int、Long、Float和Double（无包装类型）和一个Boolean类型。
