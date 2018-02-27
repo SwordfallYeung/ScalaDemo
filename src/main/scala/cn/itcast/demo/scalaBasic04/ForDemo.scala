@@ -1,4 +1,4 @@
-package cn.itcast.demo
+package cn.itcast.demo.scalaBasic04
 
 /**
   * @author y15079
