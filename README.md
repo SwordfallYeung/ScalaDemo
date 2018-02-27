@@ -20,3 +20,10 @@ Scala中的方法和函数是不一样的，而Java中两者是一样的。
 方法可以通过下划线 _ 转换成函数。
 
 yield关键字将原始的数组进行转换会产生一个新的数组，原始的数组不变
+
+在Scala中，数组有常用的统计方法，如数组arr.sum，arr.max，arr.sorted等等
+
+在Scala中创建Map的方式有两种，一种用箭头，一种用元组，如Map("tom"->85,"jerry"->99)，Map(("tom",85),("jerry",99))
+
+在Scala中，有两种Map，一个是immutable包下的Map，该Map中的内容不可变；另一个是mutable包下的Map，该Map中的内容可变。
+
