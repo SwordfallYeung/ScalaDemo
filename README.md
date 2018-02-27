@@ -23,7 +23,7 @@ yield关键字将原始的数组进行转换会产生一个新的数组，原始
 
 在Scala中，数组有常用的统计方法，如数组arr.sum，arr.max，arr.sorted等等
 
-在Scala中创建Map的方式有两种，一种用箭头，一种用元组，如Map("tom"->85,"jerry"->99)，Map(("tom",85),("jerry",99))
+在Scala中，集合有三大类，序列List、集Set、映射Map，所有的集合都扩展Iterable特质。在Scala中集合有可变（mutable）和不可变（immutable）两种类型，immutable类型的集合初始化后就不能改变了
 
-在Scala中，有两种Map，一个是immutable包下的Map，该Map中的内容不可变；另一个是mutable包下的Map，该Map中的内容可变。
+在Scala中创建Map的方式有两种，一种用箭头，一种用元组，如Map("tom"->85,"jerry"->99)，Map(("tom",85),("jerry",99))
 
