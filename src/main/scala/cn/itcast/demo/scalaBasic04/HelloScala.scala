@@ -1,3 +1,5 @@
+package cn.itcast.demo.scalaBasic04
+
 
 /**
   * object 半生对象

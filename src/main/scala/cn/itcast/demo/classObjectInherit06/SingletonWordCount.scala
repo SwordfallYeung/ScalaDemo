@@ -1,4 +1,4 @@
-package cn.itcast.demo
+package cn.itcast.demo.classObjectInherit06
 
 /**
   * @author y15079

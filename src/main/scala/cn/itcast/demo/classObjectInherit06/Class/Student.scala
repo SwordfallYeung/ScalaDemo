@@ -4,6 +4,7 @@ package cn.itcast.demo.classObjectInherit06.Class
   * @author y15079
   * @create 2018-02-27 16:30
   * @desc 每个类都有主构造器，主构造器的参数直接放置类名后面，与类交织在一起
+  *      重载构造器
   **/
 class Student(val name: String, val age:Int) {
   //主构造器会执行类定义中的所有语句
