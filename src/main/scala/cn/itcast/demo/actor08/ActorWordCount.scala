@@ -44,7 +44,7 @@ object ActorWordCount {
       val actor = new Task
       /*actor.start()
       actor !! SubmitTask(f)*/
-      val reply = actor.start() !! SubmitTask(f) //或者
+      val reply = actor.start() !! SubmitTask(f) // !没有返回值，!!有返回值
       replySet += reply
     }
 
