@@ -28,3 +28,7 @@ yield关键字将原始的数组进行转换会产生一个新的数组，原始
 在Scala中创建Map的方式有两种，一种用箭头，一种用元组，如Map("tom"->85,"jerry"->99)，Map(("tom",85),("jerry",99))
 
 Scala Actor并发编程: Actor在旧版本已被废弃，转而采用Akka。Scala中的Actor能够实现并行编程的强大功能，它是基于事件模型的并发机制，Scala是运用消息（message）的发送、接收来实现多线程的。相比Java的线程模型，Scala actor模型没有共享数据和锁，不会出现死锁问题，Actor方法执行顺序：首先调用start()，调用start()方法后其act()方法会被执行，最后向Actor发送消息。
+
+Spark的RPC是通过Akka类库实现的，Akka用Scala语言开发，基于Actor并发模型实现。Akka具有高可靠、高性能、可扩展等特点，使用Akka可以轻松实现分布式RPC功能。
+
+RPC 简单理解，不同Java进程间的通讯，可以理解为不同服务器间的通讯。
