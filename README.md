@@ -38,3 +38,6 @@ RPC 简单理解，不同Java进程间的通讯，可以理解为不同服务器
 # Scala异常检测
 方法异常与局部异常<br/>
 https://www.cnblogs.com/xinfang520/p/7728869.html
+
+Scala编程中常见错误：Error:(24, 29) value foreach is not a member of java.util.Set[String]<br/>
+https://blog.csdn.net/jiangshouzhuang/article/details/50528030
